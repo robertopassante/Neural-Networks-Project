@@ -1,0 +1,27 @@
+# Dataset (troppo grande per GitHub)
+*.zip
+extracted_dataset/
+DeepGlobe*/
+
+# Checkpoint e modelli
+checkpoints/
+*.pth
+
+# Output visualizzazioni
+training_results/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Notebook output (tieni solo il codice)
+# (non escludiamo .ipynb perché contiene il codice del launcher)
+
+# Roba di sistema
+.DS_Store
+Thumbs.db
+training_archive/
+final_training_results.png
+update_ipynb.py
